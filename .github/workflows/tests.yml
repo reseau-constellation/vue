@@ -1,0 +1,57 @@
+name: கிளிமூக்கு-வூ சோதனைகள்
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  vadivuttam:
+    name: கிளிமூக்கு-வூ வடிவூட்டம்
+    runs-on: ubuntu-latest
+    steps:
+      - name: Node.js தயாரிப்பு
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: pnpm நிறுவல்
+        uses: pnpm/action-setup@v3.0.0
+        with:
+          version: latest
+
+      - name: திறு
+        uses: actions/checkout@v4
+
+      - name: நிறுவல் செய்யு
+        run: pnpm install
+
+      - name: வடிவூட்டு
+        run: pnpm வடிவூட்டம்
+
+  sodanaikal:
+    name: கிளிமூக்கு-வூ சோதனைகள்
+    runs-on: ubuntu-latest
+    steps:
+      - name: Préparation de Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Installer pnpm
+        uses: pnpm/action-setup@v3.0.0
+        with:
+          version: latest
+
+      - name: Ouvrir la branche
+        uses: actions/checkout@v4
+
+      - name: Installer
+        run: pnpm install
+
+      - name: Vérifier les tests
+        run: pnpm போர்வை
+
+      - name: Envoyer couverure à Codecov
+        uses: codecov/codecov-action@v4
