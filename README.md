@@ -1,10 +1,10 @@
-# கிளிமூக்கு-வூ
+# Constellation Vue
 
-[![கிளிமூக்கு-வூ சோதனைகள்](https://github.com/lassi-niruvanam/kilimukku-vue/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/lassi-niruvanam/kilimukku-vue/actions/workflows/tests.yml)
-[![சோதனை விழக்காட்டு](https://codecov.io/github/lassi-niruvanam/kilimukku-vue/graph/badge.svg)](https://codecov.io/github/lassi-niruvanam/kilimukku-vue)
+[![tests @constl/vue](https://github.com/reseau-constellation/vue/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/reseau-constellation/vue/actions/workflows/tests.yml)
+[![Couverture tests](https://codecov.io/github/reseau-constellation/vue/graph/badge.svg)](https://codecov.io/github/reseau-constellation/vue)
 
 
-## நிருவல்
+## Utilisation
 ```
-$ pnpm add @lassi-js/kilimukku-vue
+$ pnpm add @constl/vue
 ```
