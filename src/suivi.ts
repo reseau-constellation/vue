@@ -28,14 +28,14 @@ export const suivre = <
         T[K] extends Ref ? Ref<Exclude<UnwrapRef<T[K]>, undefined>> : T[K]
       >;
     } & { f: types.schémaFonctionSuivi<U> },
-  ) => Promise<W> | W,
+  ) => Promise<W> | W | (() => void),
   args: T = {} as T,
   défaut?: V,
 ): ComputedRef<U | V> => {
   const val = ref(défaut) as Ref<U | V>;
   const stab = new Stabilisateur();
 
-  let fOublier: types.schémaFonctionOublier | undefined = undefined;
+  let fOublier: types.schémaFonctionOublier | (()=>void) | undefined = undefined;
   const dynamique = Object.values(args).some((x) => isRef(x));
 
   const définis = computed(() => {
