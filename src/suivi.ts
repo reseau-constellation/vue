@@ -10,7 +10,7 @@ import {
   ref,
   watchEffect,
 } from "vue";
-import { DébalerRéf } from "./types.js";
+import { DébalerRéf, PossiblementUnePromesse } from "./types.js";
 import { Stabilisateur, débalerRéfsArgs } from "./utils.js";
 
 export const suivre = <
@@ -28,7 +28,7 @@ export const suivre = <
         T[K] extends Ref ? Ref<Exclude<UnwrapRef<T[K]>, undefined>> : T[K]
       >;
     } & { f: types.schémaFonctionSuivi<U> },
-  ) => Promise<W> | W | (() => void),
+  ) => PossiblementUnePromesse<W | (() => void)>,
   args: T = {} as T,
   défaut?: V,
 ): ComputedRef<U | V> => {
