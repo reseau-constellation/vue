@@ -27,7 +27,6 @@
     "@lassi-js/kilimukku": "1.1.7",
     "deep-equal": "^2.2.3",
     "ennikkai": "^2.3.0",
-    "lodash": "^4.17.21",
     "nuchabal": "^3.2.7",
     "uuid": "^10.0.0"
   },

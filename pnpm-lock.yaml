@@ -29,9 +29,6 @@ importers:
       ennikkai:
         specifier: ^2.3.0
         version: 2.3.0(@constl/ipa@1.1.1(react-native@0.74.1(@babel/core@7.24.7)(@babel/preset-env@7.24.5(@babel/core@7.24.7))(react@18.2.0)))
-      lodash:
-        specifier: ^4.17.21
-        version: 4.17.21
       nuchabal:
         specifier: ^3.2.7
         version: 3.2.7(@constl/ipa@1.1.1(react-native@0.74.1(@babel/core@7.24.7)(@babel/preset-env@7.24.5(@babel/core@7.24.7))(react@18.2.0)))
