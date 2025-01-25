@@ -58,10 +58,5 @@
   },
   "peerDependencies": {
     "vue": "^3.4.19"
-  },
-  "pnpm": {
-    "overrides": {
-      "node-datachannel": "^0.8.0"
-    }
   }
 }
