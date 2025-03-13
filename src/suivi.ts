@@ -35,7 +35,8 @@ export const suivre = <
   const val = ref(défaut) as Ref<U | V>;
   const stab = new Stabilisateur();
 
-  let fOublier: types.schémaFonctionOublier | (()=>void) | undefined = undefined;
+  let fOublier: types.schémaFonctionOublier | (() => void) | undefined =
+    undefined;
   const dynamique = Object.values(args).some((x) => isRef(x));
 
   const définis = computed(() => {
