@@ -78,7 +78,7 @@ export const rechercher = <
 
       const retour = await fonc({
         ...définis.value,
-        f: (x) => {
+        f: (x: U) => {
           réfRésultat.value = x;
           onTravaille.value = false;
         },
