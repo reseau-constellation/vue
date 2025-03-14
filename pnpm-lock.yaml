@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.10
         version: 2.0.10
       '@constl/utils-ipa':
-        specifier: ^1.0.5
-        version: 1.0.5
+        specifier: ^2.0.0
+        version: 2.0.0
       '@lassi-js/kili':
         specifier: ^0.4.2
         version: 0.4.2
@@ -859,6 +859,10 @@ packages:
 
   '@constl/utils-ipa@1.0.5':
     resolution: {integrity: sha512-br5uNxDQsFeVVe6WO2uE3cAF/WczOiJxXgE4yj7PlBEQ3NZp2qZqLyT3L3RofnSy4erm69GrUUjdOdUV1w4SUA==}
+    engines: {node: '>=20'}
+
+  '@constl/utils-ipa@2.0.0':
+    resolution: {integrity: sha512-v6Jlxv9Tq3b6d0yXDgYVy7D030w6ke8GItt2Dyis0SPkcDP+iFNvzVn5rWdw4c3mugPXhoq87WVK1YZ0OgsNOw==}
     engines: {node: '>=20'}
 
   '@constl/utils-tests@1.6.15':
@@ -6494,6 +6498,20 @@ snapshots:
       uuid: 11.1.0
 
   '@constl/utils-ipa@1.0.5':
+    dependencies:
+      '@chriscdn/promise-semaphore': 2.0.10
+      browser-fs-access: 0.35.0
+      deep-equal: 2.2.3
+      events: 3.3.0
+      genversion: 3.2.0
+      geojson-validation: 1.0.2
+      jszip: 3.10.1
+      multiformats: 13.3.2
+      rimraf: 6.0.1
+      uint8arrays: 5.1.0
+      wherearewe: 2.0.1
+
+  '@constl/utils-ipa@2.0.0':
     dependencies:
       '@chriscdn/promise-semaphore': 2.0.10
       browser-fs-access: 0.35.0
