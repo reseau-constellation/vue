@@ -98,7 +98,7 @@ importers:
         version: 8.26.1(eslint@9.22.0)(typescript@5.8.2)
       typescript-transform-paths:
         specifier: ^3.5.4
-        version: 3.5.4(typescript@5.8.2)
+        version: 3.5.5(typescript@5.8.2)
       vite:
         specifier: ^6.2.1
         version: 6.2.2(@types/node@22.13.10)(terser@5.39.0)(yaml@2.7.0)
@@ -2820,8 +2820,8 @@ packages:
   flow-enums-runtime@0.0.6:
     resolution: {integrity: sha512-3PYnM29RFXwvAN6Pc/scUfkI7RwhQ/xqyLUyPNlXUp9S40zI8nup9tUSrTLSVnWGBN38FNiGWbwZOB6uR4OGdw==}
 
-  flow-parser@0.265.0:
-    resolution: {integrity: sha512-C+bg/TZsDVlLMF14+q9P9FB2pjQSgWwYs0pkIMPE1FsZWS4A0kk1M28V6YphpxAPr3AISVRZ6VgpDepvCk6dGw==}
+  flow-parser@0.265.2:
+    resolution: {integrity: sha512-DX2mp5u3lNJHl5dH8R1KrcrDsiJC02zFcG95p4b0YcDCzZZW+v9za2Csv5bQ0cq4jNzGx0gFU9jFZyM7FOyNFw==}
     engines: {node: '>=0.4.0'}
 
   follow-redirects@1.15.9:
@@ -4936,8 +4936,8 @@ packages:
   tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
 
-  tr46@5.0.0:
-    resolution: {integrity: sha512-tk2G5R2KRwBd+ZN0zaEXpmzdKyOYksXwywulIX95MBODjSzMIuQnQ3m8JxgbhnL1LeVo7lqQKsYa1O3Htl7K5g==}
+  tr46@5.1.0:
+    resolution: {integrity: sha512-IUWnUK7ADYR5Sl1fZlO1INDUhVhatWl7BtJWsIhwJ0UAK7ilzzIa8uIqOO/aYVWHZPJkKbEL+362wrzoeRF7bw==}
     engines: {node: '>=18'}
 
   truncate-utf8-bytes@1.0.2:
@@ -4999,8 +4999,8 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <5.9.0'
 
-  typescript-transform-paths@3.5.4:
-    resolution: {integrity: sha512-Yw/cLiwAlaTIYvO3wbCqiBIppTzsY45CBi1y+oedjtgcGMIy4xmI9ylkFiDlX2jqMqA1SY58vFPI4Y8VKkBCpA==}
+  typescript-transform-paths@3.5.5:
+    resolution: {integrity: sha512-RMK86wKe/4+ad+3kMT9SKAs3K0tUHLe7hF+MLbD6VpC9VUmFuKorhf3pHz+qO5GdS4mUp2ncNUo14j6ws9UvBQ==}
     peerDependencies:
       typescript: '>=3.6.5'
 
@@ -5230,8 +5230,8 @@ packages:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
     engines: {node: '>=18'}
 
-  whatwg-url@14.1.1:
-    resolution: {integrity: sha512-mDGf9diDad/giZ/Sm9Xi2YcyzaFpbdLpJPr+E9fSkyQ7KpQD4SdFcugkRQYzhmfI4KeV4Qpnn2sKPdo+kmsgRQ==}
+  whatwg-url@14.2.0:
+    resolution: {integrity: sha512-De72GdQZzNTUBBChsXueQUnPKDkg/5A5zp7pFDuQAj5UFoENpiACU0wlCvzpAGnTkj++ihpKwKyYewn/XNUbKw==}
     engines: {node: '>=18'}
 
   whatwg-url@5.0.0:
@@ -8944,7 +8944,7 @@ snapshots:
   data-urls@5.0.0:
     dependencies:
       whatwg-mimetype: 4.0.0
-      whatwg-url: 14.1.1
+      whatwg-url: 14.2.0
     optional: true
 
   datastore-core@10.0.2:
@@ -9453,7 +9453,7 @@ snapshots:
 
   flow-enums-runtime@0.0.6: {}
 
-  flow-parser@0.265.0: {}
+  flow-parser@0.265.2: {}
 
   follow-redirects@1.15.9(debug@4.4.0):
     optionalDependencies:
@@ -10286,7 +10286,7 @@ snapshots:
       '@babel/register': 7.25.9(@babel/core@7.26.10)
       babel-core: 7.0.0-bridge.0(@babel/core@7.26.10)
       chalk: 4.1.2
-      flow-parser: 0.265.0
+      flow-parser: 0.265.2
       graceful-fs: 4.2.11
       micromatch: 4.0.8
       neo-async: 2.6.2
@@ -10317,7 +10317,7 @@ snapshots:
       webidl-conversions: 7.0.0
       whatwg-encoding: 3.1.1
       whatwg-mimetype: 4.0.0
-      whatwg-url: 14.1.1
+      whatwg-url: 14.2.0
       ws: 8.18.1
       xml-name-validator: 5.0.0
     transitivePeerDependencies:
@@ -11943,7 +11943,7 @@ snapshots:
 
   tr46@0.0.3: {}
 
-  tr46@5.0.0:
+  tr46@5.1.0:
     dependencies:
       punycode: 2.3.1
     optional: true
@@ -12003,7 +12003,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  typescript-transform-paths@3.5.4(typescript@5.8.2):
+  typescript-transform-paths@3.5.5(typescript@5.8.2):
     dependencies:
       minimatch: 9.0.5
       typescript: 5.8.2
@@ -12227,9 +12227,9 @@ snapshots:
   whatwg-mimetype@4.0.0:
     optional: true
 
-  whatwg-url@14.1.1:
+  whatwg-url@14.2.0:
     dependencies:
-      tr46: 5.0.0
+      tr46: 5.1.0
       webidl-conversions: 7.0.0
     optional: true
 
