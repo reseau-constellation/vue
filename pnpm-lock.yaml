@@ -16,7 +16,7 @@ importers:
         version: 2.0.2
       '@lassi-js/kili':
         specifier: ^0.4.2
-        version: 0.4.3
+        version: 0.4.4
       '@lassi-js/kilimukku':
         specifier: ^1.1.9
         version: 1.1.9(react-native@0.74.1(@babel/core@7.26.10)(@babel/preset-env@7.24.5(@babel/core@7.26.10))(react@18.2.0))
@@ -1256,8 +1256,8 @@ packages:
     peerDependencies:
       '@constl/ipa': ^1.0.14
 
-  '@lassi-js/kili@0.4.3':
-    resolution: {integrity: sha512-ijHY8myQZGTAqQrjk+TVJH/dH4npErDIsuylf28prYQYJq1pYnF9FZYDIrs+Hy++hlw4hRLTRer8yX+9bQeQ0g==}
+  '@lassi-js/kili@0.4.4':
+    resolution: {integrity: sha512-8AF5rHXjSJ3tVhTH9mxAqBBMeV8UW+C4Jq0d61VjVA8LOxroj+Dwd0wztfxnjRqa9e72SYr9hik4YHL2NLaTxw==}
 
   '@lassi-js/kilimukku@1.1.9':
     resolution: {integrity: sha512-droNCf3M0uGDdzPQvCwy+9HxD1b/S1a6c1xOh9vOWaAKA6DGfIRe0e5iAdHsc9SO2VJ+DQauZZaQn/ycMfHzEw==}
@@ -1294,6 +1294,9 @@ packages:
 
   '@libp2p/crypto@5.1.0':
     resolution: {integrity: sha512-hcmScz9m7Ae7R7b/w3x9DX+i60ZIUVsMmsHyIo0vSlGsxO0+tyM4UKUia5EpSp/i1SB/W1IFXxlURwpiX7R5eQ==}
+
+  '@libp2p/crypto@5.1.1':
+    resolution: {integrity: sha512-feByJ5ypBfl7Dp+jLBmieHDY/249hqCiDn8u6DNSZrpDhefn2l/NE03fS2mW6pLOnY3QIqB372TfLtx3/EPU+w==}
 
   '@libp2p/dcutr@2.0.27':
     resolution: {integrity: sha512-A4qIN+nxfIJhlA0slqa90xlc2DADz2RT5gE09Edxi21jGY7g28IX98gd19A73P4EOMIH2aUBjW6xQpDXEmDLcw==}
@@ -1340,6 +1343,9 @@ packages:
 
   '@libp2p/interface@2.8.0':
     resolution: {integrity: sha512-QnIjqqUv2aDiBho6OGcNNhLT3Ac4RKrh41qoQmqG6csMRkUUx/xZMkfFJx3j0wGCIP8GS4sGspkTt4wCpPbSWw==}
+
+  '@libp2p/interface@2.9.0':
+    resolution: {integrity: sha512-L/0Z5H0mjaECA0jkZG+OJmEhB/OIJ07gzZYljU7C19XjL3dSkBvhA9il+G3FpHyHgqAOVGuQU5qkbv2Edj8FIA==}
 
   '@libp2p/interfaces@3.3.2':
     resolution: {integrity: sha512-p/M7plbrxLzuQchvNwww1Was7ZeGE2NaOFulMaZBYIihU8z3fhaV+a033OqnC/0NTX/yhfdNOG7znhYq3XoR/g==}
@@ -1502,8 +1508,16 @@ packages:
     resolution: {integrity: sha512-warwspo+UYUPep0Q+vtdVB4Ugn8GGQj8iyB3gnRWsztmUHTI3S1nhdiWNsPUGL0vud7JlRRk1XEu7Lq1KGTnMQ==}
     engines: {node: ^14.21.3 || >=16}
 
+  '@noble/curves@1.8.2':
+    resolution: {integrity: sha512-vnI7V6lFNe0tLAuJMu+2sX+FcL14TaCWy1qiczg1VwRmPrpQCdq5ESXQMqUc2tluRNf6irBXrWbl1mGN8uaU/g==}
+    engines: {node: ^14.21.3 || >=16}
+
   '@noble/hashes@1.7.1':
     resolution: {integrity: sha512-B8XBPsn4vT/KJAGqDzbwztd+6Yte3P4V7iafm24bxgDe/mlRuK6xmWPuCNrKt2vDafZ8MfJLlchDG/vYafQEjQ==}
+    engines: {node: ^14.21.3 || >=16}
+
+  '@noble/hashes@1.7.2':
+    resolution: {integrity: sha512-biZ0NUSxyjLLqo6KxEJ1b+C2NAx0wtDoFvCaXHGgUkeHzf3Xc1xKumFKREuT7f7DARNZ/slvYUwFG6B0f2b6hQ==}
     engines: {node: ^14.21.3 || >=16}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -2969,8 +2983,8 @@ packages:
   flow-enums-runtime@0.0.6:
     resolution: {integrity: sha512-3PYnM29RFXwvAN6Pc/scUfkI7RwhQ/xqyLUyPNlXUp9S40zI8nup9tUSrTLSVnWGBN38FNiGWbwZOB6uR4OGdw==}
 
-  flow-parser@0.267.0:
-    resolution: {integrity: sha512-eBgyFHiT/CHevT225CVQbwnAwRKLjqgtkkpDBMvNGV2C/Tz8x4Zr9FZeWed/cSWhRTiUhH7MXpIWSHkrzvaqdA==}
+  flow-parser@0.268.0:
+    resolution: {integrity: sha512-URZmPy/jKDDIJUHUfC+5KNwaPcfONTL3R8xltQWVEoCKLWowVebEBg89nbAnYHNo6ev8KzKWFpOROfHZdaCoxA==}
     engines: {node: '>=0.4.0'}
 
   follow-redirects@1.15.9:
@@ -6640,7 +6654,7 @@ snapshots:
       '@helia/block-brokers': 4.1.0
       '@helia/unixfs': 4.0.3
       '@ipld/dag-cbor': 9.2.2
-      '@lassi-js/kili': 0.4.3
+      '@lassi-js/kili': 0.4.4
       '@libp2p/autonat': 2.0.29
       '@libp2p/bootstrap': 11.0.33
       '@libp2p/circuit-relay-v2': 3.2.9
@@ -7200,7 +7214,7 @@ snapshots:
   '@ipshipyard/libp2p-auto-tls@1.0.0':
     dependencies:
       '@chainsafe/is-ip': 2.1.0
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/http-fetch': 2.2.2
       '@libp2p/interface': 2.7.0
       '@libp2p/interface-internal': 2.3.10
@@ -7305,7 +7319,7 @@ snapshots:
       '@orbitdb/core': 2.5.0
       deepcopy: 2.1.0
 
-  '@lassi-js/kili@0.4.3':
+  '@lassi-js/kili@0.4.4':
     dependencies:
       '@constl/utils-ipa': 2.0.2
       '@orbitdb/core': 2.5.0
@@ -7315,7 +7329,7 @@ snapshots:
     dependencies:
       '@constl/ipa': 1.6.9(react-native@0.74.1(@babel/core@7.26.10)(@babel/preset-env@7.24.5(@babel/core@7.26.10))(react@18.2.0))
       '@constl/utils-ipa': 1.0.5
-      '@lassi-js/kili': 0.4.3
+      '@lassi-js/kili': 0.4.4
       uuid: 11.1.0
       wherearewe: 2.0.1
     transitivePeerDependencies:
@@ -7374,7 +7388,7 @@ snapshots:
 
   '@libp2p/circuit-relay-v2@3.2.8':
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@libp2p/interface-internal': 2.3.10
       '@libp2p/peer-collections': 6.0.26
@@ -7418,7 +7432,7 @@ snapshots:
 
   '@libp2p/config@1.1.4':
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@libp2p/keychain': 5.1.4
       '@libp2p/logger': 5.1.13
@@ -7426,7 +7440,7 @@ snapshots:
 
   '@libp2p/config@1.1.5':
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.8.0
       '@libp2p/keychain': 5.2.0
       '@libp2p/logger': 5.1.14
@@ -7447,6 +7461,16 @@ snapshots:
       '@libp2p/interface': 2.8.0
       '@noble/curves': 1.8.1
       '@noble/hashes': 1.7.1
+      multiformats: 13.3.2
+      protons-runtime: 5.5.0
+      uint8arraylist: 2.4.8
+      uint8arrays: 5.1.0
+
+  '@libp2p/crypto@5.1.1':
+    dependencies:
+      '@libp2p/interface': 2.9.0
+      '@noble/curves': 1.8.2
+      '@noble/hashes': 1.7.2
       multiformats: 13.3.2
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
@@ -7479,7 +7503,7 @@ snapshots:
   '@libp2p/http-fetch@2.2.2':
     dependencies:
       '@achingbrain/http-parser-js': 0.5.8
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@libp2p/interface-internal': 2.3.10
       '@libp2p/peer-id': 5.1.0
@@ -7495,7 +7519,7 @@ snapshots:
 
   '@libp2p/identify@3.0.27':
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@libp2p/interface-internal': 2.3.10
       '@libp2p/peer-id': 5.1.0
@@ -7601,6 +7625,15 @@ snapshots:
       progress-events: 1.0.1
       uint8arraylist: 2.4.8
 
+  '@libp2p/interface@2.9.0':
+    dependencies:
+      '@multiformats/multiaddr': 12.4.0
+      it-pushable: 3.2.3
+      it-stream-types: 2.0.2
+      multiformats: 13.3.2
+      progress-events: 1.0.1
+      uint8arraylist: 2.4.8
+
   '@libp2p/interfaces@3.3.2': {}
 
   '@libp2p/kad-dht@14.2.15':
@@ -7638,7 +7671,7 @@ snapshots:
 
   '@libp2p/keychain@5.1.4':
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@noble/hashes': 1.7.1
       asn1js: 3.0.6
@@ -7791,7 +7824,7 @@ snapshots:
 
   '@libp2p/peer-record@8.0.25':
     dependencies:
-      '@libp2p/crypto': 5.0.15
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@libp2p/peer-id': 5.1.0
       '@libp2p/utils': 6.6.1
@@ -7847,7 +7880,7 @@ snapshots:
 
   '@libp2p/ping@2.0.27':
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@libp2p/interface-internal': 2.3.10
       '@multiformats/multiaddr': 12.4.0
@@ -7940,7 +7973,7 @@ snapshots:
 
   '@libp2p/tls@2.1.1':
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@libp2p/peer-id': 5.1.0
       '@peculiar/asn1-schema': 2.3.15
@@ -7956,7 +7989,7 @@ snapshots:
 
   '@libp2p/tls@2.1.2':
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.8.0
       '@libp2p/peer-id': 5.1.1
       '@peculiar/asn1-schema': 2.3.15
@@ -7998,7 +8031,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@chainsafe/netmask': 2.0.0
-      '@libp2p/crypto': 5.0.15
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@libp2p/logger': 5.1.13
       '@multiformats/multiaddr': 12.4.0
@@ -8046,7 +8079,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@chainsafe/netmask': 2.0.0
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.8.0
       '@libp2p/logger': 5.1.14
       '@multiformats/multiaddr': 12.4.0
@@ -8246,7 +8279,13 @@ snapshots:
     dependencies:
       '@noble/hashes': 1.7.1
 
+  '@noble/curves@1.8.2':
+    dependencies:
+      '@noble/hashes': 1.7.2
+
   '@noble/hashes@1.7.1': {}
+
+  '@noble/hashes@1.7.2': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -8269,7 +8308,7 @@ snapshots:
   '@orbitdb/core@2.5.0':
     dependencies:
       '@ipld/dag-cbor': 9.2.2
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       it-pipe: 3.0.1
       level: 8.0.1
       lru: 3.1.0
@@ -9883,7 +9922,7 @@ snapshots:
 
   ennikkai@2.3.4:
     dependencies:
-      '@lassi-js/kili': 0.4.3
+      '@lassi-js/kili': 0.4.4
       deepmerge: 4.3.1
       events: 3.3.0
 
@@ -10206,7 +10245,7 @@ snapshots:
 
   flow-enums-runtime@0.0.6: {}
 
-  flow-parser@0.267.0: {}
+  flow-parser@0.268.0: {}
 
   follow-redirects@1.15.9(debug@4.4.0):
     optionalDependencies:
@@ -10655,7 +10694,7 @@ snapshots:
 
   ipns@10.0.1:
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.7.0
       '@libp2p/logger': 5.1.13
       cborg: 4.2.9
@@ -10668,7 +10707,7 @@ snapshots:
 
   ipns@10.0.2:
     dependencies:
-      '@libp2p/crypto': 5.1.0
+      '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.8.0
       '@libp2p/logger': 5.1.14
       cborg: 4.2.9
@@ -11133,7 +11172,7 @@ snapshots:
       '@babel/register': 7.25.9(@babel/core@7.26.10)
       babel-core: 7.0.0-bridge.0(@babel/core@7.26.10)
       chalk: 4.1.2
-      flow-parser: 0.267.0
+      flow-parser: 0.268.0
       graceful-fs: 4.2.11
       micromatch: 4.0.8
       neo-async: 2.6.2
