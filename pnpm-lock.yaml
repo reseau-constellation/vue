@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@chriscdn/promise-semaphore':
         specifier: ^2.0.10
-        version: 2.0.11
+        version: 2.0.12
       '@constl/utils-ipa':
         specifier: ^2.0.0
         version: 2.0.2
@@ -71,7 +71,7 @@ importers:
         version: 10.1.2(eslint@9.25.1)
       eslint-plugin-vue:
         specifier: ^10.0.0
-        version: 10.0.1(eslint@9.25.1)(vue-eslint-parser@9.4.3(eslint@9.25.1))
+        version: 10.1.0(eslint@9.25.1)(vue-eslint-parser@9.4.3(eslint@9.25.1))
       genversion:
         specifier: ^3.2.0
         version: 3.2.0
@@ -856,8 +856,8 @@ packages:
   '@chainsafe/netmask@2.0.0':
     resolution: {integrity: sha512-I3Z+6SWUoaljh3TBzCnCxjlUyN8tA+NAk5L6m9IxvCf1BENQTePzPMis97CoN/iMW1St3WN+AWCCRp+TTBRiDg==}
 
-  '@chriscdn/promise-semaphore@2.0.11':
-    resolution: {integrity: sha512-Fw68keZcPzifN44h3MXzYaLhxTpGWiQT6iEdJgdwaA2n86r9dCbljiuiys7BUKDDz4CIsVIflLTNXYS/RXULJA==}
+  '@chriscdn/promise-semaphore@2.0.12':
+    resolution: {integrity: sha512-hgbaEg1n+q2ZKKBCrzjRK56pB+IDkj4tFHywz5aVq4sX+2nvyxmD/MuPO8ULe+xOpoCkS3djTliWnXUyGOi3Yg==}
 
   '@constl/bohr-db@1.2.3':
     resolution: {integrity: sha512-IJXOqeMnJEOqD7DRNMowwPOY7bVKlTdQNu3DNn9zoSKj+fBzTXLzkxl4uRbKLu9vwWzjoXyxgvp2iw7vkt/amQ==}
@@ -2764,8 +2764,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-vue@10.0.1:
-    resolution: {integrity: sha512-A5dRYc3eQ5i2rJFBW8J6F69ur/H7YfYg+5SCg6v829FU0BhM4fUTrRVR2d4MdZgzw0ioJEk6otYHEAnoGFqO4A==}
+  eslint-plugin-vue@10.1.0:
+    resolution: {integrity: sha512-/VTiJ1eSfNLw6lvG9ENySbGmcVvz6wZ9nA7ZqXlLBY2RkaF15iViYKxglWiIch12KiLAj0j1iXPYU6W4wTROFA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
@@ -6597,7 +6597,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.1.0
 
-  '@chriscdn/promise-semaphore@2.0.11': {}
+  '@chriscdn/promise-semaphore@2.0.12': {}
 
   '@constl/bohr-db@1.2.3(react-native@0.74.1(@babel/core@7.26.10)(@babel/preset-env@7.24.5(@babel/core@7.26.10))(react@18.2.0))':
     dependencies:
@@ -6621,7 +6621,7 @@ snapshots:
       '@chainsafe/libp2p-gossipsub': 14.1.1
       '@chainsafe/libp2p-noise': 16.1.0
       '@chainsafe/libp2p-yamux': 7.0.1
-      '@chriscdn/promise-semaphore': 2.0.11
+      '@chriscdn/promise-semaphore': 2.0.12
       '@constl/bohr-db': 1.2.3(react-native@0.74.1(@babel/core@7.26.10)(@babel/preset-env@7.24.5(@babel/core@7.26.10))(react@18.2.0))
       '@constl/mandataire': 3.0.3
       '@constl/utils-ipa': 2.0.2
@@ -6712,7 +6712,7 @@ snapshots:
 
   '@constl/utils-ipa@1.0.5':
     dependencies:
-      '@chriscdn/promise-semaphore': 2.0.11
+      '@chriscdn/promise-semaphore': 2.0.12
       browser-fs-access: 0.35.0
       deep-equal: 2.2.3
       events: 3.3.0
@@ -9958,7 +9958,7 @@ snapshots:
     dependencies:
       eslint: 9.25.1
 
-  eslint-plugin-vue@10.0.1(eslint@9.25.1)(vue-eslint-parser@9.4.3(eslint@9.25.1)):
+  eslint-plugin-vue@10.1.0(eslint@9.25.1)(vue-eslint-parser@9.4.3(eslint@9.25.1)):
     dependencies:
       '@eslint-community/eslint-utils': 4.6.1(eslint@9.25.1)
       eslint: 9.25.1
