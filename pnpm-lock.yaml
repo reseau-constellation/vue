@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@chriscdn/promise-semaphore':
-        specifier: ^2.0.10
-        version: 2.0.12
+        specifier: ^3.0.0
+        version: 3.0.0
       '@constl/utils-ipa':
         specifier: ^2.0.0
         version: 2.0.2
@@ -921,6 +921,9 @@ packages:
 
   '@chriscdn/promise-semaphore@2.0.12':
     resolution: {integrity: sha512-hgbaEg1n+q2ZKKBCrzjRK56pB+IDkj4tFHywz5aVq4sX+2nvyxmD/MuPO8ULe+xOpoCkS3djTliWnXUyGOi3Yg==}
+
+  '@chriscdn/promise-semaphore@3.0.0':
+    resolution: {integrity: sha512-kXFsZlmGyMCI0BLZLEN9Xd/UWeQpGvZn+isZ5lJRauKZtgeaUsfn2QQJBEIVDiPlk7sbO1OUgnZsv2eJVXSpqA==}
 
   '@constl/bohr-db@1.2.3':
     resolution: {integrity: sha512-IJXOqeMnJEOqD7DRNMowwPOY7bVKlTdQNu3DNn9zoSKj+fBzTXLzkxl4uRbKLu9vwWzjoXyxgvp2iw7vkt/amQ==}
@@ -6961,6 +6964,8 @@ snapshots:
       '@chainsafe/is-ip': 2.1.0
 
   '@chriscdn/promise-semaphore@2.0.12': {}
+
+  '@chriscdn/promise-semaphore@3.0.0': {}
 
   '@constl/bohr-db@1.2.3(react-native@0.74.1(@babel/core@7.26.10)(@babel/preset-env@7.24.5(@babel/core@7.26.10))(react@18.2.0))':
     dependencies:
