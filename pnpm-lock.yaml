@@ -41,7 +41,7 @@ importers:
         version: 1.6.24(react-native@0.74.1(@babel/core@7.28.5)(@babel/preset-env@7.24.5(@babel/core@7.28.5))(react@18.2.0))
       '@constl/utils-tests':
         specifier: ^2.0.0
-        version: 2.0.3(react-native@0.74.1(@babel/core@7.28.5)(@babel/preset-env@7.24.5(@babel/core@7.28.5))(react@18.2.0))
+        version: 2.0.4(react-native@0.74.1(@babel/core@7.28.5)(@babel/preset-env@7.24.5(@babel/core@7.28.5))(react@18.2.0))
       '@eslint/js':
         specifier: ^9.22.0
         version: 9.39.1
@@ -977,8 +977,8 @@ packages:
     resolution: {integrity: sha512-ypThNw7fa47lu5HSRkEL12nqKz1CjCFeY9ticpOaEBMbqXvpTVNw9044+fvgIaI/KsXWrDf8RQZvTwOU1zz5yw==}
     engines: {node: '>=20'}
 
-  '@constl/utils-tests@2.0.3':
-    resolution: {integrity: sha512-5it+SqJn5Zr3dfSn9If3tcIH9ZFQyqA1vclgFRyLav82HUGMwCamlE8vlF0LL3sfO/Go3Y8H7LcgdUgv+Mzl7w==}
+  '@constl/utils-tests@2.0.4':
+    resolution: {integrity: sha512-FNX03oyHyVcjXrx0g1awRW0A7k23vr4OwLwdfW0oiq33lcsA0IGVCc0S1YRQX79mZNdx64vJRRCSwuPsHZQQDg==}
     engines: {node: '>=20'}
 
   '@csstools/color-helpers@5.1.0':
@@ -2456,8 +2456,8 @@ packages:
     resolution: {integrity: sha512-x511uiJ/57FIsbgUe5csJ13k3uzu25uWQE+XqfBis/sB0SFoiElJWXRkgEAUh0U6n40eT3ay5Ue4oPkRMu1LYw==}
     engines: {node: '>= 10.0.0'}
 
-  axios@1.13.1:
-    resolution: {integrity: sha512-hU4EGxxt+j7TQijx1oYdAjw4xuIp1wRQSsbMFwSthCWeBQur1eF+qJ5iQ5sN3Tw8YRzQNKb8jszgBdMDVqwJcw==}
+  axios@1.13.2:
+    resolution: {integrity: sha512-VPk9ebNqPcy5lRGuSlKx752IlDatOjT9paPlm8A7yOuW2Fbvp4X3JznJtT4f0GzGLLiWE9W8onz51SqLYwzGaA==}
 
   axios@1.9.0:
     resolution: {integrity: sha512-re4CqKTJaURpzbLHtIi6XpDv20/CnpXOtjRY5/CU32L8gU8ek9UIivcfvSWvmKEngmVbrUtPpdDwWDWL7DNHvg==}
@@ -2524,11 +2524,14 @@ packages:
   blockstore-fs@2.0.4:
     resolution: {integrity: sha512-39k/euFgKrVLo2MoSAAy0PC99aZfL9K6ltS4jdo7sZapIqEQuFpJecqWA9BrW3pIo9tcT5YTGP49vpMPVbZyzg==}
 
+  blockstore-fs@2.0.5:
+    resolution: {integrity: sha512-hmzm8ed7PZCZLD1NBmGwOIcSYt1wRZ28mpbTa72L3zN7wPs2B9TG2bo9ecxCr1yYCaGO/qN3iUHMhjXz+oy26g==}
+
   blockstore-idb@2.0.3:
     resolution: {integrity: sha512-YyMan8RqJPbi66UsEkS4pOsi1T7/ewzrqLgPxCxi8+prCqR7yUlzOM16yS23Y9uX8qYlAIa7Rl3v1pqRScrXvg==}
 
-  blockstore-level@2.0.5:
-    resolution: {integrity: sha512-UxPCb6OKXxrImXo//sOg/sD1sMW6C7wMAja9Rh9xllJKPBsxnilui49B0nrcf9YM+oVyRDBnAkddLEEQX6PUmw==}
+  blockstore-idb@2.0.4:
+    resolution: {integrity: sha512-UZLuUa4tIrzlLEk6f7Nb1pOFzrpzqG8X7spP9sgQFLOL53KzQSS7+Ro0Trc965Vv00X0Ck5nUjyngbMFu3ElRg==}
 
   bn.js@4.12.2:
     resolution: {integrity: sha512-n4DSx829VRTRByMRGdjQ9iqsN0Bh4OolPsFnaZBLcbi8iXcB+kJ9s7EnRt4wILZNV3kPLHkRVfOc/HvhC3ovDw==}
@@ -2664,8 +2667,8 @@ packages:
     resolution: {integrity: sha512-z126yLoavS75cdTuiKu61RC3Y3trqtDAgQRa5Q0dpHn1RmqhIedptWXKnk0lQ5yo/GmcV9myvIkzFgZ8GnqSog==}
     hasBin: true
 
-  cborg@4.2.18:
-    resolution: {integrity: sha512-uzhkd5HOaLccokqeZa5B0Qz7/aa9C12pmUq5yU3vcy6I6OhTKdPHSzOuBPZfcoQHdcx8Emz/dWZbPNNfF/puvg==}
+  cborg@4.3.0:
+    resolution: {integrity: sha512-vOXo1pB4mdeBw3LbpoynQlZNw/H3kZVHLtPYlp8kFMreL/2YfT54F70BM1s3iDoCtQ+3C9QmiRF4rfCSSTlhBw==}
     hasBin: true
 
   chai@6.2.0:
@@ -7518,7 +7521,7 @@ snapshots:
       uint8arrays: 5.1.0
       wherearewe: 2.0.1
 
-  '@constl/utils-tests@2.0.3(react-native@0.74.1(@babel/core@7.28.5)(@babel/preset-env@7.24.5(@babel/core@7.28.5))(react@18.2.0))':
+  '@constl/utils-tests@2.0.4(react-native@0.74.1(@babel/core@7.28.5)(@babel/preset-env@7.24.5(@babel/core@7.28.5))(react@18.2.0))':
     dependencies:
       '@chainsafe/libp2p-gossipsub': 14.1.2
       '@helia/block-brokers': 4.2.4
@@ -7526,7 +7529,8 @@ snapshots:
       '@libp2p/webrtc': 5.2.24(react-native@0.74.1(@babel/core@7.28.5)(@babel/preset-env@7.24.5(@babel/core@7.28.5))(react@18.2.0))
       '@orbitdb/core': 3.0.2
       blockstore-core: 5.0.4
-      blockstore-level: 2.0.5
+      blockstore-fs: 2.0.5
+      blockstore-idb: 2.0.4
       browserify-fs: 1.0.0
       chokidar: 4.0.3
       crypto-browserify: 3.12.1
@@ -7921,7 +7925,7 @@ snapshots:
       '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       blockstore-core: 5.0.4
-      cborg: 4.2.18
+      cborg: 4.3.0
       interface-blockstore: 5.3.2
       interface-datastore: 8.3.2
       interface-store: 6.0.3
@@ -7954,12 +7958,12 @@ snapshots:
 
   '@ipld/dag-cbor@9.2.5':
     dependencies:
-      cborg: 4.2.18
+      cborg: 4.3.0
       multiformats: 13.4.1
 
   '@ipld/dag-json@10.2.5':
     dependencies:
-      cborg: 4.2.18
+      cborg: 4.3.0
       multiformats: 13.4.1
 
   '@ipld/dag-pb@4.1.5':
@@ -8380,7 +8384,7 @@ snapshots:
 
   '@libp2p/interface@2.10.3':
     dependencies:
-      '@multiformats/multiaddr': 12.4.1
+      '@multiformats/multiaddr': 12.5.1
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
       main-event: 1.0.1
@@ -8883,7 +8887,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@chainsafe/netmask': 2.0.0
-      '@libp2p/crypto': 5.1.13
+      '@libp2p/crypto': 5.1.5
       '@libp2p/interface': 2.10.3
       '@libp2p/logger': 5.2.0
       '@multiformats/multiaddr': 12.4.1
@@ -10269,7 +10273,7 @@ snapshots:
     dependencies:
       '@peculiar/x509': 1.14.0
       asn1js: 3.0.6
-      axios: 1.13.1(debug@4.4.3)
+      axios: 1.13.2(debug@4.4.3)
       debug: 4.4.3
       node-forge: 1.3.1
     transitivePeerDependencies:
@@ -10392,7 +10396,7 @@ snapshots:
       uuid: 8.0.0
       xml2js: 0.6.2
 
-  axios@1.13.1(debug@4.4.3):
+  axios@1.13.2(debug@4.4.3):
     dependencies:
       follow-redirects: 1.15.11(debug@4.4.3)
       form-data: 4.0.4
@@ -10498,6 +10502,17 @@ snapshots:
       race-signal: 1.1.3
       steno: 4.0.2
 
+  blockstore-fs@2.0.5:
+    dependencies:
+      interface-blockstore: 5.3.2
+      interface-store: 6.0.3
+      it-glob: 3.0.4
+      it-map: 3.1.4
+      it-parallel-batch: 3.0.9
+      multiformats: 13.4.1
+      race-signal: 2.0.0
+      steno: 4.0.2
+
   blockstore-idb@2.0.3:
     dependencies:
       blockstore-core: 5.0.4
@@ -10507,12 +10522,12 @@ snapshots:
       multiformats: 13.3.7
       race-signal: 1.1.3
 
-  blockstore-level@2.0.5:
+  blockstore-idb@2.0.4:
     dependencies:
       blockstore-core: 5.0.4
+      idb: 8.0.3
       interface-blockstore: 5.3.2
       interface-store: 6.0.3
-      level: 8.0.1
       multiformats: 13.4.1
       race-signal: 2.0.0
 
@@ -10677,7 +10692,7 @@ snapshots:
 
   cborg@4.2.12: {}
 
-  cborg@4.2.18: {}
+  cborg@4.3.0: {}
 
   chai@6.2.0: {}
 
@@ -11932,7 +11947,7 @@ snapshots:
       '@libp2p/crypto': 5.1.13
       '@libp2p/interface': 3.1.0
       '@libp2p/logger': 6.2.0
-      cborg: 4.2.18
+      cborg: 4.3.0
       interface-datastore: 9.0.2
       multiformats: 13.4.1
       protons-runtime: 5.6.0
