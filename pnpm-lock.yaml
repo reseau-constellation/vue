@@ -59,7 +59,7 @@ importers:
         version: 6.0.4(vite@7.3.1(@types/node@25.3.0)(terser@5.46.0)(yaml@2.8.2))(vue@3.5.28(typescript@5.9.3))
       '@vitest/coverage-istanbul':
         specifier: ^4.0.0
-        version: 4.0.18(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.6.3)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2))
+        version: 4.0.18(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.7.0)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2))
       '@vue/test-utils':
         specifier: ^2.4.6
         version: 2.4.6
@@ -80,7 +80,7 @@ importers:
         version: 17.3.0
       happy-dom:
         specifier: ^20.0.0
-        version: 20.6.3
+        version: 20.7.0
       prettier:
         specifier: ^3.5.3
         version: 3.8.1
@@ -104,7 +104,7 @@ importers:
         version: 7.3.1(@types/node@25.3.0)(terser@5.46.0)(yaml@2.8.2)
       vitest:
         specifier: ^4.0.0
-        version: 4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.6.3)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2)
+        version: 4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.7.0)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2)
       vue:
         specifier: ^3.5.13
         version: 3.5.28(typescript@5.9.3)
@@ -3538,8 +3538,8 @@ packages:
   hamt-sharding@3.0.6:
     resolution: {integrity: sha512-nZeamxfymIWLpVcAN0CRrb7uVq3hCOGj9IcL6NMA6VVCVWqj+h9Jo/SmaWuS92AEDf1thmHsM5D5c70hM3j2Tg==}
 
-  happy-dom@20.6.3:
-    resolution: {integrity: sha512-QAMY7d228dHs8gb9NG4SJ3OxQo4r+NGN8pOXGZ3SGfQf/XYuuYubrtZ25QVY2WoUQdskhRXSXb4R4mcRk+hV1w==}
+  happy-dom@20.7.0:
+    resolution: {integrity: sha512-hR/uLYQdngTyEfxnOoa+e6KTcfBFyc1hgFj/Cc144A5JJUuHFYqIEBDcD4FeGqUeKLRZqJ9eN9u7/GDjYEgS1g==}
     engines: {node: '>=20.0.0'}
 
   has-bigints@1.1.0:
@@ -10260,7 +10260,7 @@ snapshots:
       vite: 7.3.1(@types/node@25.3.0)(terser@5.46.0)(yaml@2.8.2)
       vue: 3.5.28(typescript@5.9.3)
 
-  '@vitest/coverage-istanbul@4.0.18(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.6.3)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2))':
+  '@vitest/coverage-istanbul@4.0.18(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.7.0)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2))':
     dependencies:
       '@istanbuljs/schema': 0.1.3
       '@jridgewell/gen-mapping': 0.3.13
@@ -10272,7 +10272,7 @@ snapshots:
       magicast: 0.5.1
       obug: 2.1.1
       tinyrainbow: 3.0.3
-      vitest: 4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.6.3)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2)
+      vitest: 4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.7.0)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -11763,7 +11763,7 @@ snapshots:
       sparse-array: 1.3.2
       uint8arrays: 5.1.0
 
-  happy-dom@20.6.3:
+  happy-dom@20.7.0:
     dependencies:
       '@types/node': 25.3.0
       '@types/whatwg-mimetype': 3.0.2
@@ -14492,7 +14492,7 @@ snapshots:
       terser: 5.46.0
       yaml: 2.8.2
 
-  vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.6.3)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2):
+  vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.0)(happy-dom@20.7.0)(jsdom@24.1.0)(terser@5.46.0)(yaml@2.8.2):
     dependencies:
       '@vitest/expect': 4.0.18
       '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@25.3.0)(terser@5.46.0)(yaml@2.8.2))
@@ -14517,7 +14517,7 @@ snapshots:
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
       '@types/node': 25.3.0
-      happy-dom: 20.6.3
+      happy-dom: 20.7.0
       jsdom: 24.1.0
     transitivePeerDependencies:
       - jiti
