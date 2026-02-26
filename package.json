@@ -21,7 +21,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@chriscdn/promise-semaphore": "^3.0.0",
+    "@chriscdn/promise-semaphore": "^4.0.0",
     "@constl/utils-ipa": "^2.0.0",
     "@lassi-js/kili": "^0.4.2",
     "@lassi-js/kilimukku": "^1.1.9",
