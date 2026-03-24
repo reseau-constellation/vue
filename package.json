@@ -50,7 +50,7 @@
     "prettier": "^3.5.3",
     "rimraf": "^6.0.0",
     "ts-patch": "^3.3.0",
-    "typescript": "^5.8.2",
+    "typescript": "^6.0.0",
     "typescript-eslint": "^8.26.1",
     "typescript-transform-paths": "^3.5.4",
     "vite": "^8.0.0",
