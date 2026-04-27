@@ -33,8 +33,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       uuid:
-        specifier: ^11.0.0
-        version: 11.1.0
+        specifier: ^14.0.0
+        version: 14.0.0
     devDependencies:
       '@constl/ipa':
         specifier: ^1.6.2
@@ -6274,7 +6274,7 @@ packages:
         optional: true
 
   xlsx@https://cdn.sheetjs.com/xlsx-0.19.1/xlsx-0.19.1.tgz:
-    resolution: {integrity: sha512-pPh/ybd1bChlhCrtQ9QmRUx2yjQwMbS4tfvV9MSA2Qmm7vRUHQtPDMlLjAvQ2A4v8G92i2RlrNkSOKb1bwY7ww==, tarball: https://cdn.sheetjs.com/xlsx-0.19.1/xlsx-0.19.1.tgz}
+    resolution: {tarball: https://cdn.sheetjs.com/xlsx-0.19.1/xlsx-0.19.1.tgz}
     version: 0.19.1
     engines: {node: '>=0.8'}
     hasBin: true
@@ -10316,7 +10316,7 @@ snapshots:
 
   '@types/uuid@11.0.0':
     dependencies:
-      uuid: 11.1.0
+      uuid: 14.0.0
 
   '@types/whatwg-mimetype@3.0.2': {}
 
