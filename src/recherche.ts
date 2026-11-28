@@ -1,8 +1,8 @@
-import type { types } from "@constl/ipa";
+
 import {
-  MaybeRef,
-  Ref,
-  UnwrapRef,
+  type MaybeRef,
+  type Ref,
+  type UnwrapRef,
   ref,
   isRef,
   computed,
@@ -11,13 +11,15 @@ import {
 } from "vue";
 import { type DébalerRéf } from "./types.js";
 import { Stabilisateur, débalerRéfsArgs } from "./utils.js";
+import type {Oublier, RetourRecherche, RetourRechercheProfondeur, Suivi, } from "@constl/interface"
+import type { DagCborEncodable } from "@orbitdb/core";
 
 export const rechercher = <
   U,
   W extends
-    | types.schémaRetourFonctionRechercheParN
-    | types.schémaRetourFonctionRechercheParProfondeur,
-  T extends { [clef: string]: MaybeRef<types.élémentsBd | undefined> } = Record<
+    | RetourRecherche
+    | RetourRechercheProfondeur,
+  T extends { [clef: string]: MaybeRef<DagCborEncodable | undefined> } = Record<
     string,
     never
   >,
@@ -27,7 +29,7 @@ export const rechercher = <
       [K in keyof T]: DébalerRéf<
         T[K] extends Ref ? Ref<Exclude<UnwrapRef<T[K]>, undefined>> : T[K]
       >;
-    } & { f: types.schémaFonctionSuivi<U> },
+    } & { f: Suivi<U> },
   ) => Promise<W>,
   args: T = {} as T,
 ): { résultats: Ref<U | undefined>; onTravaille: Ref<boolean> } => {
@@ -37,15 +39,15 @@ export const rechercher = <
   const stab = new Stabilisateur();
   const dynamique = Object.values(args).some((x) => isRef(x));
 
-  let fOublier: types.schémaFonctionOublier | undefined = undefined;
+  let fOublier: Oublier | undefined = undefined;
   let fChangerNOuProfondeur: (n: number) => Promise<void>;
   const vérifierSiParProfondeur = (
     x:
-      | types.schémaRetourFonctionRechercheParN
-      | types.schémaRetourFonctionRechercheParProfondeur,
-  ): x is types.schémaRetourFonctionRechercheParProfondeur => {
-    return !!(x as types.schémaRetourFonctionRechercheParProfondeur)
-      .fChangerProfondeur;
+      | RetourRecherche
+      | RetourRechercheProfondeur,
+  ): x is RetourRechercheProfondeur => {
+    return !!(x as RetourRechercheProfondeur)
+      .profondeur;
   };
 
   const définis = computed(() => {
@@ -83,11 +85,11 @@ export const rechercher = <
           onTravaille.value = false;
         },
       });
-      fOublier = retour.fOublier;
+      fOublier = retour.oublier;
 
       fChangerNOuProfondeur = vérifierSiParProfondeur(retour)
-        ? retour.fChangerProfondeur
-        : retour.fChangerN;
+        ? retour.profondeur
+        : retour.n;
     } else {
       réfRésultat.value = undefined;
       onTravaille.value = false;

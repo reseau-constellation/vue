@@ -1,23 +1,24 @@
-import type { types } from "@constl/ipa";
 import {
-  ComputedRef,
-  MaybeRef,
-  Ref,
-  UnwrapRef,
+  type ComputedRef,
+  type MaybeRef,
+  type Ref,
+  type UnwrapRef,
   computed,
   isRef,
   onUnmounted,
   ref,
   watchEffect,
 } from "vue";
-import { DébalerRéf, PossiblementUnePromesse } from "./types.js";
+import type { DébalerRéf, PossiblementUnePromesse } from "./types.js";
 import { Stabilisateur, débalerRéfsArgs } from "./utils.js";
+import type { Oublier, Suivi } from "@constl/interface";
+import type { DagCborEncodable } from "@orbitdb/core";
 
 export const suivre = <
   U,
   V extends U | undefined,
-  W extends types.schémaFonctionOublier,
-  T extends { [clef: string]: MaybeRef<types.élémentsBd | undefined> } = Record<
+  W extends Oublier,
+  T extends { [clef: string]: MaybeRef<DagCborEncodable | undefined> } = Record<
     string,
     never
   >,
@@ -27,7 +28,7 @@ export const suivre = <
       [K in keyof T]: DébalerRéf<
         T[K] extends Ref ? Ref<Exclude<UnwrapRef<T[K]>, undefined>> : T[K]
       >;
-    } & { f: types.schémaFonctionSuivi<U> },
+    } & { f: Suivi<U> },
   ) => PossiblementUnePromesse<W | (() => void)>,
   args: T = {} as T,
   défaut?: V,
@@ -35,7 +36,7 @@ export const suivre = <
   const val = ref(défaut) as Ref<U | V>;
   const stab = new Stabilisateur();
 
-  let fOublier: types.schémaFonctionOublier | (() => void) | undefined =
+  let fOublier: Oublier | (() => void) | undefined =
     undefined;
   const dynamique = Object.values(args).some((x) => isRef(x));
 

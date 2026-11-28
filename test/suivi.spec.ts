@@ -1,12 +1,9 @@
 import { describe, test } from "vitest";
 import { flushPromises, mount } from "@vue/test-utils";
-import { suivre } from "@/suivi";
+import { suivre } from "../src/suivi.ts";
 import { defineComponent, ref } from "vue";
-import {
-  schémaFonctionOublier,
-  schémaFonctionSuivi,
-} from "@constl/ipa/dist/types";
 import { TypedEmitter } from "tiny-typed-emitter";
+import type { Oublier, Suivi } from "@constl/interface";
 
 const générerFSuivi = () => {
   const signaleur = new TypedEmitter<{
@@ -14,8 +11,8 @@ const générerFSuivi = () => {
     modif: (args: { [clef: string]: number }) => void;
   }>();
   const fSuivre = async <T extends { [clef: string]: number }>(
-    args: T & { f: schémaFonctionSuivi<T> },
-  ): Promise<schémaFonctionOublier> => {
+    args: T & { f: Suivi<T> },
+  ): Promise<Oublier> => {
     const { f } = args;
     const autresArgs = Object.fromEntries(
       Object.entries(args).filter(([clef, _val]) => clef !== "f"),

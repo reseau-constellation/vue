@@ -1,5 +1,5 @@
 import { describe, test } from "vitest";
-import { obt } from "@/action.js";
+import { obt } from "../src/action.js";
 import { defineComponent } from "vue";
 import { flushPromises, mount } from "@vue/test-utils";
 

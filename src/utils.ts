@@ -1,18 +1,18 @@
-import type { types } from "@constl/ipa";
 import type { DébalerRéfsArgs } from "./types.js";
 
 import deepEqual from "deep-equal";
-import { MaybeRef, unref } from "vue";
+import { type MaybeRef, unref } from "vue";
+import type { DagCborEncodable } from "@orbitdb/core";
 
 export class Stabilisateur {
   n: number;
-  valeurAntérieure?: { [clef: string]: types.élémentsBd | undefined };
+  valeurAntérieure?: { [clef: string]: DagCborEncodable | undefined };
 
   constructor(n = 1000) {
     this.n = n;
   }
   async stabiliser(args: {
-    [clef: string]: types.élémentsBd | undefined;
+    [clef: string]: DagCborEncodable | undefined;
   }): Promise<boolean> {
     // Arrêter tout de suite si ces valeurs ont déjà été soumises
     if (deepEqual(args, this.valeurAntérieure)) return false;
@@ -29,7 +29,7 @@ export class Stabilisateur {
 }
 
 export const débalerRéfsArgs = <
-  T extends { [clef: string]: MaybeRef<types.élémentsBd | undefined> },
+  T extends { [clef: string]: MaybeRef<DagCborEncodable | undefined> },
 >(
   args: T,
 ): DébalerRéfsArgs<T> => {

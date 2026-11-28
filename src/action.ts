@@ -1,9 +1,9 @@
-import type { types } from "@constl/ipa";
 import { computed, onMounted, ref, type ComputedRef } from "vue";
+import type { DagCborEncodable } from "@orbitdb/core";
 
 export const obt = <
   U,
-  T extends { [clef: string]: types.élémentsBd | undefined } = Record<
+  T extends { [clef: string]: DagCborEncodable | undefined } = Record<
     string,
     never
   >,
