@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@chriscdn/promise-semaphore':
-        specifier: ^3.1.3
-        version: 3.1.3
+        specifier: ^4.0.0
+        version: 4.0.1
       '@constl/utils-ipa':
         specifier: ^3.2.0
         version: 3.2.0
